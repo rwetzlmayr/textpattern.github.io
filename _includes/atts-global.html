@@ -72,7 +72,7 @@
     <dd><strong>Default:</strong> {% if include.labeltag == null %}unset{% else %}{{ include.labeltag }}{% endif %}.</dd>
 {% unless include.not == "" %}
     <dt><code>not="boolean"</code></dt>
-    <dd>Switch <code><txp:else /></code> parts.</dd>
+    <dd>Switch <code>&lt;txp:else /&gt;</code> parts.</dd>
     <dd><strong>Values:</strong> 0 (no) or 1 (yes).</dd>
     <dd><strong>Default:</strong> {% if include.not == null %}unset (0){% else %}{{ include.not }}{% endif %}.</dd>
 {% endunless %}
